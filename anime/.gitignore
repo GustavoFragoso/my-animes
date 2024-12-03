@@ -1,0 +1,55 @@
+# Geral
+.DS_Store
+.idea/
+*.iml
+*.log
+*.swp
+*.tmp
+
+# Arquivos do IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Build do Maven
+/target/
+
+# Build do Gradle
+/.gradle/
+/build/
+
+# Arquivos gerados pelo sistema operacional
+Thumbs.db
+.DS_Store
+
+# Logs
+logs/
+*.log
+*.out
+*.pid
+*.gz
+
+# Configurações e credenciais sensíveis
+/application.properties
+/application.yml
+/*.keystore
+/*.p12
+.env
+
+# Banco de dados local
+*.db
+*.h2.db
+*.mv.db
+
+# Cache e dependências
+/.mvn/
+/.maven/
+/.gradle/
+/node_modules/
+
+# Arquivos de container/Docker
+docker-compose.override.yml
+.env.local
+
+# Arquivos temporários criados pelo Spring Boot DevTools
+.spring-boot-devtools.properties
